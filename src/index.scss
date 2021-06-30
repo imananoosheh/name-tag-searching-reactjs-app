@@ -1,0 +1,81 @@
+*{
+  font-family: 'Raleway', sans-serif !important;
+  &:focus-visible{
+    outline: none;
+  }
+}
+
+body{
+  background-color: #dddddd !important;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.student-card-container{
+  background-color: white;
+  .name-search-bar{
+    padding-top: 0.75rem;
+    input{
+      width: 100%;
+      border: 0px solid grey;
+      border-bottom: 1px solid grey;
+    }
+  }
+}
+
+.student-card{
+  border-bottom: 1px solid rgb(221, 221, 221);
+  text-align: left;
+  .student-pic{
+    margin-top: 1rem;
+  }
+  h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: .75rem;
+  }
+  img{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 80%;
+    margin: 10%;
+  }
+  p{
+    margin-bottom: 0.25rem;
+    margin-left: 1rem;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .student-info{
+    .grades{
+      margin-top: 1.5rem;
+      p{
+        line-height: 1rem;
+      }
+    }
+  }
+}
+
+.parent-container{
+  position: fixed;
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  right: 20%;
+  overflow: auto;
+  border-radius: 0.5rem;
+}
+
+input.add-tag-input{
+  border: 0px solid grey;
+  border-bottom: 1px solid grey;
+}

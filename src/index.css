@@ -1,13 +1,80 @@
+* {
+  font-family: "Raleway", sans-serif !important;
+}
+*:focus-visible {
+  outline: none;
+}
+
 body {
+  background-color: #dddddd !important;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.student-card-container {
+  background-color: white;
+}
+.student-card-container .name-search-bar {
+  padding-top: 0.75rem;
+}
+.student-card-container .name-search-bar input {
+  width: 100%;
+  border: 0px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.student-card {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+}
+.student-card .student-pic {
+  margin-top: 1rem;
+}
+.student-card h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.student-card img {
+  border: 1px solid gray;
+  border-radius: 50%;
+  width: 80%;
+  margin: 10%;
+}
+.student-card p {
+  margin-bottom: 0.25rem;
+  margin-left: 1rem;
+}
+.student-card a {
+  text-decoration: none;
+  color: inherit;
+}
+.student-card .student-info .grades {
+  margin-top: 1.5rem;
+}
+.student-card .student-info .grades p {
+  line-height: 1rem;
+}
+
+.parent-container {
+  position: fixed;
+  width: 60%;
+  height: 80%;
+  top: 10%;
+  right: 20%;
+  overflow: auto;
+  border-radius: 0.5rem;
+}
+
+input.add-tag-input {
+  border: 0px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+/*# sourceMappingURL=index.css.map */
