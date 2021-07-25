@@ -68,7 +68,7 @@ function App() {
             <input
               className="my-2"
               type="text"
-              placeholder="Search first or last name ..."
+              placeholder="Search by name ..."
               onChange={(query) => {
                 setSearchQueryString(query.target.value);
               }}
@@ -76,7 +76,7 @@ function App() {
             <input
               className="my-2"
               type="text"
-              placeholder="Search tags ..."
+              placeholder="Search by tag ..."
               onChange={(event) => {
                 setTagSearchQuery(event.target.value);
               }}
